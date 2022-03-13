@@ -79,6 +79,7 @@
 		7CDF264327DDDD95006A7228 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7C31F73527DCCD890042A696 /* LoginView.swift */,
 				7C31F72327DCCB3B0042A696 /* LoginViewController.swift */,
 			);
 			path = Login;
@@ -87,7 +88,6 @@
 		7CDF264427DDDDB4006A7228 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				7C31F73527DCCD890042A696 /* LoginView.swift */,
 				7CDF263E27DDCFE1006A7228 /* OnboardingContainerViewController.swift */,
 				7CDF264127DDDB72006A7228 /* OnboardingViewController.swift */,
 			);
