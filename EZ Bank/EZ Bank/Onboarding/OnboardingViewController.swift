@@ -34,7 +34,7 @@ class OnboardingViewController: UIViewController {
 }
 
 extension OnboardingViewController {
-    func style() {
+    private func style() {
         view.backgroundColor = .systemBackground // ! dont forget
     
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -55,7 +55,7 @@ extension OnboardingViewController {
         label.text = titleText
     }
     
-    func layout() {
+    private func layout() {
         stackView.addArrangedSubview(imageView)
         stackView.addArrangedSubview(label)
         
