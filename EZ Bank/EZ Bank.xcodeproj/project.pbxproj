@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3096E327E1D01F005080A5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3096E227E1D01F005080A5 /* MainViewController.swift */; };
 		7C31F72027DCCB3B0042A696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31F71F27DCCB3B0042A696 /* AppDelegate.swift */; };
 		7C31F72427DCCB3B0042A696 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C31F72327DCCB3B0042A696 /* LoginViewController.swift */; };
 		7C31F72927DCCB3D0042A696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C31F72827DCCB3D0042A696 /* Assets.xcassets */; };
@@ -16,9 +17,11 @@
 		7CDF264227DDDB72006A7228 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF264127DDDB72006A7228 /* OnboardingViewController.swift */; };
 		7CDF264627DF6001006A7228 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF264527DF6001006A7228 /* DummyViewController.swift */; };
 		7CDF264927DF9015006A7228 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF264827DF9015006A7228 /* LocalState.swift */; };
+		7CDF264B27DFA8B3006A7228 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF264A27DFA8B3006A7228 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C3096E227E1D01F005080A5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7C31F71C27DCCB3B0042A696 /* EZ Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C31F71F27DCCB3B0042A696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C31F72327DCCB3B0042A696 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		7CDF264127DDDB72006A7228 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		7CDF264527DF6001006A7228 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		7CDF264827DF9015006A7228 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		7CDF264A27DFA8B3006A7228 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,12 @@
 		7C31F71E27DCCB3B0042A696 /* EZ Bank */ = {
 			isa = PBXGroup;
 			children = (
-				7CDF264727DF8FEF006A7228 /* Utils */,
-				7CDF264427DDDDB4006A7228 /* Onboarding */,
-				7CDF264327DDDD95006A7228 /* Login */,
 				7C31F71F27DCCB3B0042A696 /* AppDelegate.swift */,
+				7CDF264327DDDD95006A7228 /* Login */,
+				7CDF264427DDDDB4006A7228 /* Onboarding */,
+				7CDF264727DF8FEF006A7228 /* Utils */,
 				7C31F73327DCCD070042A696 /* Files */,
+				7C3096E227E1D01F005080A5 /* MainViewController.swift */,
 			);
 			path = "EZ Bank";
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7CDF264827DF9015006A7228 /* LocalState.swift */,
+				7CDF264A27DFA8B3006A7228 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -181,8 +187,10 @@
 				7C31F73627DCCD8A0042A696 /* LoginView.swift in Sources */,
 				7CDF264927DF9015006A7228 /* LocalState.swift in Sources */,
 				7CDF264627DF6001006A7228 /* DummyViewController.swift in Sources */,
+				7CDF264B27DFA8B3006A7228 /* Extensions.swift in Sources */,
 				7C31F72427DCCB3B0042A696 /* LoginViewController.swift in Sources */,
 				7CDF264227DDDB72006A7228 /* OnboardingViewController.swift in Sources */,
+				7C3096E327E1D01F005080A5 /* MainViewController.swift in Sources */,
 				7C31F72027DCCB3B0042A696 /* AppDelegate.swift in Sources */,
 				7CDF263F27DDCFE1006A7228 /* OnboardingContainerViewController.swift in Sources */,
 			);
